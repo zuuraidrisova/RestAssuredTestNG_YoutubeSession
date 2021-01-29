@@ -2,7 +2,63 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/zuura/IdeaProjects/RestAssuredTestNG_YoutubeSession/testng.xml">
-        <classes/>
+          name="/Users/zuura/IdeaProjects/RestAssuredTestNG_YoutubeSession/src/test/java/com/dummyAPI/testCases">
+        <classes>
+            <class name="com.dummyAPI.testCases.TC1_GetAllEmployees">
+                <methods>
+                    <include name="testResponseBody"/>
+                    <include name="testStatusCode"/>
+                    <include name="testResponseTime"/>
+                    <include name="testStatusLine"/>
+                    <include name="testContentType"/>
+                    <include name="testServerType"/>
+                    <include name="testContentLength"/>
+                    <include name="testContentEncoding"/>
+                </methods>
+            </class>
+            <class name="com.dummyAPI.testCases.TC2_GetSingleEmployee">
+                <methods>
+                    <include name="testResponseBody"/>
+                    <include name="testStatusCode"/>
+                    <include name="testResponseTime"/>
+                    <include name="testStatusLine"/>
+                    <include name="testContentType"/>
+                    <include name="testServerType"/>
+                    <include name="testContentLength"/>
+                </methods>
+            </class>
+            <class name="com.dummyAPI.testCases.TC3_PostNewEmployee">
+                <methods>
+                    <include name="testResponseBody"/>
+                    <include name="testStatusCode"/>
+                    <include name="testResponseTime"/>
+                    <include name="testStatusLine"/>
+                    <include name="testContentType"/>
+                    <include name="testServerType"/>
+                    <include name="testContentLength"/>
+                </methods>
+            </class>
+            <class name="com.dummyAPI.testCases.TC4_PutSingleEmployee">
+                <methods>
+                    <include name="testResponseBody"/>
+                    <include name="testStatusCode"/>
+                    <include name="testResponseTime"/>
+                    <include name="testStatusLine"/>
+                    <include name="testContentType"/>
+                    <include name="testServerType"/>
+                    <include name="testContentLength"/>
+                </methods>
+            </class>
+            <class name="com.dummyAPI.testCases.TC5_DeleteSingleEmployee">
+                <methods>
+                    <include name="testResponseBody"/>
+                    <include name="testStatusCode"/>
+                    <include name="testResponseTime"/>
+                    <include name="testStatusLine"/>
+                    <include name="testContentType"/>
+                    <include name="testServerType"/>
+                </methods>
+            </class>
+        </classes>
     </test>
 </suite>

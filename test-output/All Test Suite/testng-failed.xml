@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="/Users/zuura/IdeaProjects/RestAssuredTestNG_YoutubeSession/src/test/java/com/dummyAPI/testCases(failed)">
+    <classes>
+      <class name="com.dummyAPI.testCases.TC4_PutSingleEmployee">
+        <methods>
+          <include name="testServerType"/>
+          <include name="testResponseTime"/>
+          <include name="testStatusCode"/>
+          <include name="testResponseBody"/>
+          <include name="testStatusLine"/>
+          <include name="setUp"/>
+          <include name="testContentType"/>
+          <include name="tearDown"/>
+          <include name="putSingleEmployee"/>
+        </methods>
+      </class> <!-- com.dummyAPI.testCases.TC4_PutSingleEmployee -->
+      <class name="com.dummyAPI.testCases.TC5_DeleteSingleEmployee">
+        <methods>
+          <include name="testContentType"/>
+          <include name="testServerType"/>
+          <include name="setUp"/>
+          <include name="testResponseTime"/>
+          <include name="testStatusCode"/>
+          <include name="deleteSingleEmployee"/>
+          <include name="tearDown"/>
+          <include name="testStatusLine"/>
+        </methods>
+      </class> <!-- com.dummyAPI.testCases.TC5_DeleteSingleEmployee -->
+      <class name="com.dummyAPI.testCases.TC1_GetAllEmployees">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="testContentEncoding"/>
+          <include name="testResponseTime"/>
+          <include name="tearDown"/>
+          <include name="testStatusLine"/>
+          <include name="testContentType"/>
+          <include name="testStatusCode"/>
+          <include name="setUp"/>
+          <include name="testResponseBody"/>
+          <include name="testServerType"/>
+        </methods>
+      </class> <!-- com.dummyAPI.testCases.TC1_GetAllEmployees -->
+      <class name="com.dummyAPI.testCases.TC3_PostNewEmployee">
+        <methods>
+          <include name="testServerType"/>
+          <include name="testResponseBody"/>
+          <include name="testStatusLine"/>
+          <include name="testResponseTime"/>
+          <include name="testStatusCode"/>
+          <include name="testContentType"/>
+          <include name="setUp"/>
+          <include name="createNewEmployee"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dummyAPI.testCases.TC3_PostNewEmployee -->
+      <class name="com.dummyAPI.testCases.TC2_GetSingleEmployee">
+        <methods>
+          <include name="testResponseTime"/>
+          <include name="tearDown"/>
+          <include name="testContentType"/>
+          <include name="testStatusLine"/>
+          <include name="testServerType"/>
+          <include name="testStatusCode"/>
+          <include name="setUp"/>
+          <include name="testResponseBody"/>
+          <include name="getSingleEmployee"/>
+        </methods>
+      </class> <!-- com.dummyAPI.testCases.TC2_GetSingleEmployee -->
+    </classes>
+  </test> <!-- /Users/zuura/IdeaProjects/RestAssuredTestNG_YoutubeSession/src/test/java/com/dummyAPI/testCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

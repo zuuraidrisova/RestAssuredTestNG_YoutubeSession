@@ -714,3 +714,52 @@
 2021-01-28 19:40:01,421 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2021-01-28 19:40:01,422 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2021-01-28 19:40:01,422 DEBUG [main] cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zuura/.m2/repository/com/aventstack/extentreports/4.0.4/extentreports-4.0.4.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2021-01-29 00:24:41,892  INFO [main] EmployeeRestAPI:15 - Started Get all employees endpoint
+2021-01-29 00:24:41,921  INFO [main] EmployeeRestAPI:17 - Started Get single employee endpoint
+2021-01-29 00:24:41,930  INFO [main] EmployeeRestAPI:23 - Started Creating new employee
+2021-01-29 00:24:41,943  INFO [main] EmployeeRestAPI:22 - Started Updating single employee endpoint
+2021-01-29 00:24:41,954  INFO [main] EmployeeRestAPI:47 - Checking status code
+2021-01-29 00:24:41,957  INFO [main] EmployeeRestAPI:60 - Checking response time
+2021-01-29 00:24:41,959  INFO [main] EmployeeRestAPI:73 - Checking status line
+2021-01-29 00:24:41,961  INFO [main] EmployeeRestAPI:84 - Checking content type
+2021-01-29 00:24:41,963  INFO [main] EmployeeRestAPI:96 - Checking server type
+2021-01-29 00:24:41,965  INFO [main] EmployeeRestAPI:109 - Finished test case Get All Employees endpoint
+2021-01-29 00:28:04,896  INFO [main] EmployeeRestAPI:15 - Started Get all employees endpoint
+2021-01-29 00:28:09,059  INFO [main] EmployeeRestAPI:30 - Checking response body
+2021-01-29 00:28:09,080  INFO [main] EmployeeRestAPI:43 - Checking status code
+2021-01-29 00:28:09,081  INFO [main] EmployeeRestAPI:56 - Checking response time
+2021-01-29 00:28:09,082  INFO [main] EmployeeRestAPI:69 - Checking status line
+2021-01-29 00:28:09,083  INFO [main] EmployeeRestAPI:80 - Checking content type
+2021-01-29 00:28:09,085  INFO [main] EmployeeRestAPI:92 - Checking server type
+2021-01-29 00:28:09,086  INFO [main] EmployeeRestAPI:116 - Checking content encoding
+2021-01-29 00:28:09,087  INFO [main] EmployeeRestAPI:129 - Finished test case Get All Employees endpoint
+2021-01-29 00:28:09,091  INFO [main] EmployeeRestAPI:17 - Started Get single employee endpoint
+2021-01-29 00:28:11,839  INFO [main] EmployeeRestAPI:32 - Checking response body
+2021-01-29 00:28:12,331  INFO [main] EmployeeRestAPI:53 - Checking status code
+2021-01-29 00:28:12,332  INFO [main] EmployeeRestAPI:66 - Checking response time
+2021-01-29 00:28:12,333  INFO [main] EmployeeRestAPI:79 - Checking status line
+2021-01-29 00:28:12,334  INFO [main] EmployeeRestAPI:90 - Checking content type
+2021-01-29 00:28:12,335  INFO [main] EmployeeRestAPI:102 - Checking server type
+2021-01-29 00:28:12,337  INFO [main] EmployeeRestAPI:127 - Finished test case Get All Employees endpoint
+2021-01-29 00:28:12,340  INFO [main] EmployeeRestAPI:23 - Started Creating new employee
+2021-01-29 00:28:15,555  INFO [main] EmployeeRestAPI:48 - Checking response body
+2021-01-29 00:28:15,606  INFO [main] EmployeeRestAPI:63 - Checking status code
+2021-01-29 00:28:15,607  INFO [main] EmployeeRestAPI:76 - Checking response time
+2021-01-29 00:28:15,608  INFO [main] EmployeeRestAPI:89 - Checking status line
+2021-01-29 00:28:15,609  INFO [main] EmployeeRestAPI:100 - Checking content type
+2021-01-29 00:28:15,610  INFO [main] EmployeeRestAPI:112 - Checking server type
+2021-01-29 00:28:15,610  INFO [main] EmployeeRestAPI:136 - Finished test case Get All Employees endpoint
+2021-01-29 00:28:15,613  INFO [main] EmployeeRestAPI:22 - Started Updating single employee endpoint
+2021-01-29 00:28:19,496  INFO [main] EmployeeRestAPI:46 - Checking response body
+2021-01-29 00:28:19,521  INFO [main] EmployeeRestAPI:61 - Checking status code
+2021-01-29 00:28:19,522  INFO [main] EmployeeRestAPI:74 - Checking response time
+2021-01-29 00:28:19,524  INFO [main] EmployeeRestAPI:87 - Checking status line
+2021-01-29 00:28:19,527  INFO [main] EmployeeRestAPI:98 - Checking content type
+2021-01-29 00:28:19,530  INFO [main] EmployeeRestAPI:110 - Checking server type
+2021-01-29 00:28:19,533  INFO [main] EmployeeRestAPI:134 - Finished test case Get All Employees endpoint
+2021-01-29 00:28:19,540  INFO [main] EmployeeRestAPI:47 - Checking status code
+2021-01-29 00:28:19,541  INFO [main] EmployeeRestAPI:60 - Checking response time
+2021-01-29 00:28:19,545  INFO [main] EmployeeRestAPI:73 - Checking status line
+2021-01-29 00:28:19,549  INFO [main] EmployeeRestAPI:84 - Checking content type
+2021-01-29 00:28:19,556  INFO [main] EmployeeRestAPI:96 - Checking server type
+2021-01-29 00:28:19,558  INFO [main] EmployeeRestAPI:109 - Finished test case Get All Employees endpoint
